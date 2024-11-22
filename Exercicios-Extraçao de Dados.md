@@ -1,4 +1,4 @@
-# Exercicio 1
+# Exercício 1
 
 ```python
 from bs4 import BeautifulSoup
@@ -29,8 +29,10 @@ for article in articles:
 df = pd.DataFrame(dados)
 print(df)
 ```
+## Exemplo de saída
+![alt text](image-1.png)
 
-# Exercicio 2
+# Exercício 2
 
 ```python
 from bs4 import BeautifulSoup
@@ -111,8 +113,10 @@ extrair_dados(url_eng_materiais)
 url_eng_hidrica = 'https://institucional.ufpel.edu.br/cursos/cod/6400'
 extrair_dados(url_eng_hidrica)
 ```
+## Exemplo de saída
+![alt text](image.png)
 
-# Exercicio 3
+# Exercício 3
 
 ```python
 from bs4 import BeautifulSoup
@@ -193,7 +197,10 @@ def extrair_dados(url, numero_professores):
 url_eng_comp = 'https://institucional.ufpel.edu.br/cursos/cod/3910#professores'
 extrair_dados(url_eng_comp, 34)
 
-url_ciencia_comp = 'https://institucional.ufpel.edu.br/cursos/cod/3900#professores'
-extrair_dados(url_ciencia_comp, 34)
-
+# sem necessidade de rodar ja que sao os mesmos professores ( mas funciona ;) )
+#url_ciencia_comp = 'https://institucional.ufpel.edu.br/cursos/cod/3900#professores'
+#extrair_dados(url_ciencia_comp, 34)
 ```
+
+## Exemplo de saída
+![alt text](image-2.png)
